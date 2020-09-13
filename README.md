@@ -24,5 +24,4 @@ docker-compose up thiagobritorocha/api-customer:latest
 - Alterar banco em memória para banco dado em disco;
 - Alterar autenticação basic para OAUTH2...
 
-# Documentação e acesso a API-Customer 
-# host:port/swagger-ui.html
+# Documentação - host:port/swagger-ui.html
