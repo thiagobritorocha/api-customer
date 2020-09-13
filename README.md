@@ -7,7 +7,7 @@ Comandos para subir serviço api-customer
 
 # DOCKER
 
-docker run -it -d -e 8080 thiagobritorocha/api-customer:latest
+docker run -it -d -p 8080:8080 thiagobritorocha/api-customer:latest
 
 # KUBERNATES
 
