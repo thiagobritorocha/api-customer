@@ -12,6 +12,7 @@ docker run -it -d -p 8080:8080 thiagobritorocha/api-customer:latest
 # KUBERNATES
 
 kubectl apply -f deployment-api-customer.yaml
+
 kubectl apply -f service-api-customer.yaml
 
 # COMPOSE
