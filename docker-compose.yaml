@@ -1,0 +1,7 @@
+version: '3'
+services:
+    api-customer:
+        image: thiagobritorocha/api-customer:openjdk11-alpine
+        container_name: api-customer
+        ports:
+            - "8080:8080"

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-customer
+  labels:
+    app: api-customer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-customer
+  template:
+    metadata:
+      labels:
+        app: api-customer
+    spec:
+      containers:
+      - name: api-customer
+        image: thiagobritorocha/api-customer:openjdk11-alpine
+        ports:
+        - containerPort: 8080
