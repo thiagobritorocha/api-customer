@@ -17,3 +17,9 @@ kubectl apply -f service-api-customer.yaml
 # COMPOSE
 
 docker-compose up thiagobritorocha/api-customer:latest
+
+# To Do
+
+- Adicionar service config;
+- Alterar banco em memória para banco dado em disco;
+- Alterar autenticação basic para OAUTH2...
