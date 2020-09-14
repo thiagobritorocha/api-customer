@@ -9,15 +9,15 @@ Comandos para subir serviço api-customer
 
 docker run -it -d -p 8080:8080 thiagobritorocha/api-customer:latest
 
+# COMPOSE
+
+docker-compose up
+
 # KUBERNATES
 
 kubectl apply -f deployment-api-customer.yaml
 
 kubectl apply -f service-api-customer.yaml
-
-# COMPOSE
-
-docker-compose up thiagobritorocha/api-customer:latest
 
 # To Do
 
@@ -26,3 +26,7 @@ docker-compose up thiagobritorocha/api-customer:latest
 - Alterar autenticação basic para OAUTH2...
 
 # Documentação - host:port/swagger-ui.html
+
+- login: user
+
+- password: userPass
