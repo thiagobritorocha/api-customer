@@ -35,8 +35,8 @@ public class ResourceCreatedEvent extends ApplicationEvent {
 		return id;
 	}
 
-	public void setId(Long codigo) {
-		this.id = codigo;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 }
